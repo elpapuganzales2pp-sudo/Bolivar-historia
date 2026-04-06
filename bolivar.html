@@ -10,70 +10,102 @@
 </head>
 <body>
   <div class="page-shell">
-    <header class="hero">
+    <nav class="top-nav">
+      <a href="#inicio" class="nav-link">Inicio</a>
+      <a href="#linea-de-tiempo" class="nav-link">Línea de tiempo</a>
+      <a href="#historia" class="nav-link">Historia</a>
+      <a href="#biografia" class="nav-link">Biografía</a>
+      <a href="index.html" class="nav-link secondary">Volver</a>
+    </nav>
+
+    <header class="hero" id="inicio">
       <div class="hero-copy">
         <p class="badge">Historia</p>
         <h1>Simón Bolívar</h1>
-        <p>El Libertador de América del Sur, líder clave en la independencia de seis países y símbolo de unidad continental.</p>
+        <p>El Libertador de América del Sur, líder decisivo en la independencia de varias naciones y símbolo de libertad.</p>
+        <div class="hero-actions">
+          <a href="#linea-de-tiempo" class="button">Ver línea de tiempo</a>
+          <a href="#biografia" class="button outline">Leer biografía</a>
+        </div>
       </div>
       <div class="hero-image">
-        <div class="portrait"></div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Centenary_of_Simon_Bolivar.jpg/800px-Centenary_of_Simon_Bolivar.jpg" alt="Simón Bolívar" />
       </div>
     </header>
 
     <main class="content">
-      <section class="summary-card">
-        <div class="summary-header">
-          <h2>¿Quién fue Simón Bolívar?</h2>
-          <p>Bolívar fue un militar y político venezolano que jugó un papel decisivo en la liberación de América del Sur del dominio español.</p>
+      <section class="timeline-card" id="linea-de-tiempo">
+        <h2>Línea de tiempo</h2>
+        <div class="timeline-list">
+          <div class="timeline-item">
+            <span class="timeline-year">1783</span>
+            <p>Nace el 24 de julio en Caracas, Venezuela.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">1810</span>
+            <p>Comienza la lucha por la independencia de Venezuela.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">1819</span>
+            <p>Batalla de Boyacá, liberación de Nueva Granada.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">1824</span>
+            <p>Victoria en Ayacucho, fin del dominio español en Sudamérica.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">1830</span>
+            <p>Muere en Santa Marta el 17 de diciembre.</p>
+          </div>
         </div>
+      </section>
 
+      <section class="summary-card" id="historia">
+        <div class="summary-header">
+          <h2>Historia</h2>
+          <p>Su lucha transformó la historia de América del Sur, dando paso a la creación de nuevas repúblicas independientes.</p>
+        </div>
         <div class="summary-grid">
           <article class="info-card">
-            <h3>Nacimiento</h3>
-            <p>24 de julio de 1783 en Caracas, Venezuela.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sim%C3%B3n_Bol%C3%ADvar_quaternary.jpg/320px-Sim%C3%B3n_Bol%C3%ADvar_quaternary.jpg" alt="Retrato de Simón Bolívar" />
+            <h3>El Libertador</h3>
+            <p>Dirigió campañas militares que liberaron Venezuela, Colombia, Ecuador, Perú y Bolivia del dominio español.</p>
           </article>
           <article class="info-card">
-            <h3>Logros</h3>
-            <p>Dirigió campañas de independencia que liberaron Venezuela, Colombia, Ecuador, Perú y Bolivia.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Boyaca.jpg/320px-Boyaca.jpg" alt="Batalla de Boyacá" />
+            <h3>Campañas decisivas</h3>
+            <p>Sus victorias en batallas como Boyacá y Ayacucho cambiaron el curso de la independencia.</p>
           </article>
           <article class="info-card">
-            <h3>Legado</h3>
-            <p>Conocido como "El Libertador", su visión influyó en la idea de una América unida y soberana.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sim%C3%B3n_Bol%C3%ADvar_-_Tomb.jpg/320px-Sim%C3%B3n_Bol%C3%ADvar_-_Tomb.jpg" alt="Tumba de Simón Bolívar" />
+            <h3>Un legado duradero</h3>
+            <p>Hoy su nombre inspira a millones y se mantiene vivo en la memoria de América Latina.</p>
           </article>
         </div>
       </section>
 
-      <section class="timeline-card">
-        <h2>Línea de tiempo</h2>
-        <div class="timeline-list">
-          <div class="timeline-item">
-            <span class="timeline-year">1810</span>
-            <p>Inicia la lucha por la independencia de Venezuela.</p>
+      <section class="bio-card" id="biografia">
+        <h2>Biografía</h2>
+        <div class="bio-grid">
+          <div>
+            <h3>Infancia y educación</h3>
+            <p>Nacido en una familia acomodada de Caracas, se educó en Europa durante su juventud y regresó a Venezuela con ideas renovadoras.</p>
           </div>
-          <div class="timeline-item">
-            <span class="timeline-year">1819</span>
-            <p>Triunfo en la Batalla de Boyacá y liberación de la Nueva Granada.</p>
+          <div>
+            <h3>Independencia</h3>
+            <p>Convirtió la rebelión en un movimiento de liberación continental, apoyado por soldados, patriotas y gobiernos amigos.</p>
           </div>
-          <div class="timeline-item">
-            <span class="timeline-year">1824</span>
-            <p>Derrota al ejército español en la Batalla de Ayacucho.</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-year">1830</span>
-            <p>Muere en Santa Marta, hoy Colombia, el 17 de diciembre.</p>
+          <div>
+            <h3>Últimos años</h3>
+            <p>Tras separaciones políticas, pasó sus últimos meses enfermo en Santa Marta, donde murió en 1830.</p>
           </div>
         </div>
       </section>
 
       <section class="quote-card">
-        <p>"Huid del país donde uno solo ejerce todos los poderes: es un país de esclavos."</p>
+        <p>"Libertad es el derecho que todo hombre tiene a ser honrado, y a pensar y a hablar sin hipocresía."</p>
         <span>— Simón Bolívar</span>
       </section>
-
-      <div class="footer-link">
-        <a href="index.html">← Volver a la encuesta</a>
-      </div>
     </main>
   </div>
 </body>
